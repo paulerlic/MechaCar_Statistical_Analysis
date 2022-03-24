@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression Analysis
-![image](https://user-images.githubusercontent.com/92773195/152666327-0469ec0c-8002-4051-8769-2368fa4ab2f8.png)
+![Regression](https://user-images.githubusercontent.com/86337035/159983681-47c3a3dc-3ea0-4b1d-86f5-30c9c8a84102.png)
 
 Variables : Vehicle length, vehicle weight, and ground clearance. 
 All of these variables had p-values below the .05 alpha level of significance. 
@@ -9,7 +9,7 @@ AWD and spoiler angle returned p-values of 0.307 and 0.185 these variables provi
 
 
 ## Technical Analysis
-![image](https://user-images.githubusercontent.com/92773195/152666947-4d39e327-45e7-490c-8fa3-27f315b2e0f1.png)
+![Tech](https://user-images.githubusercontent.com/86337035/159984094-537c9b4f-1fb2-492c-9fd8-42929e077f30.png)
 
 This is a summary of the dataset showing the following:  
     - Average PSI of 1498.78  
@@ -17,7 +17,7 @@ This is a summary of the dataset showing the following:
     - Variance of 62.29 
     - Standard deviation is 7.89
 
-![image](https://user-images.githubusercontent.com/92773195/152666963-be98e184-414c-498f-a882-28ede716de01.png)
+![Tech 2](https://user-images.githubusercontent.com/86337035/159984245-f9d50b4a-3cb4-497f-9979-a7e185278d18.png)
 
     - Lot 1 : Mean and median PSI of 1500, variance of 0.98, and a standard deviation of 0.99.
     - Lot 2 : Mean PSI of 1500.2, median of 1500, variance of 7.47, and a standard deviation of 2.73.
@@ -25,17 +25,17 @@ This is a summary of the dataset showing the following:
 
 
 ## T-Test on Suspension Coils
-![image](https://user-images.githubusercontent.com/92773195/152703175-3edca962-94c9-43ef-89eb-4370f4b0c7de.png)
+![Ttest](https://user-images.githubusercontent.com/86337035/159984339-a1ea7fc4-2a4c-46d9-814f-5c346c4e2419.png)
 
 Our T-Test returned came back with a p-value of 0.06028. This means we failed to reject the null hypothesis and we can conclude that there is no evidence that the average PSI across manufacturing lots differs from the population mean of 1500 PSI.
 
-![image](https://user-images.githubusercontent.com/92773195/152703237-f77fd691-9acb-4f45-8598-e4c7d4c73ca3.png)
+![Ttest 2](https://user-images.githubusercontent.com/86337035/159984453-4b7915c2-0a17-422c-8272-21a28d23ff3f.png)
 With a p-value of 1, we fail to reject the null hypothesis and conclude that Manufacturing Lot 1 does not have a significantly different mean PSI from the population mean of 1500 PSI.
 
-![image](https://user-images.githubusercontent.com/92773195/152703260-d3c8c3c2-43ff-432d-9f9e-10b39e740d8e.png)
+![Ttest 3](https://user-images.githubusercontent.com/86337035/159984570-d3fc4964-e364-44de-b9d4-b8ef0c0cc412.png)
 With a p-value of 0.6072 and an alpha significance level of 0.05, we once again fail to reject the null hypothesis and conclude that there is not sufficient evidence to conclude that Manufacturing Lot 2 has a different average PSI from the population mean of 1500 PSI.
 
-![image](https://user-images.githubusercontent.com/92773195/152703298-6392c760-9946-4963-9e3d-ca398a09fdbb.png)
+![Ttest 4](https://user-images.githubusercontent.com/86337035/159984646-bfc12a2e-cabf-4b75-8d2b-b47933704a78.png)
 However this time, with a p-value of 0.04168, and an alpha significance level of 0.05, we reject the null hypothesis and that there is sufficient evidence to conclude that Manufacturing Lot 3 has a significantly different average PSI from the population mean of 1500 PSI.
 
 
