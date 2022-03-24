@@ -27,28 +27,28 @@ This is a summary of the dataset showing the following:
 ## T-Test on Suspension Coils
 ![Ttest](https://user-images.githubusercontent.com/86337035/159984339-a1ea7fc4-2a4c-46d9-814f-5c346c4e2419.png)
 
-Our T-Test returned came back with a p-value of 0.06028. This means we failed to reject the null hypothesis and we can conclude that there is no evidence that the average PSI across manufacturing lots differs from the population mean of 1500 PSI.
+Our T-Test returned came back with a p-value of 0.06028. We failed to reject the null hypothesis and can confirm there is no evidence that average PSI across manufacturing lots differs from the population mean of 1500 PSI.
 
 ![Ttest 2](https://user-images.githubusercontent.com/86337035/159984453-4b7915c2-0a17-422c-8272-21a28d23ff3f.png)
 With a p-value of 1, we fail to reject the null hypothesis and conclude that Manufacturing Lot 1 does not have a significantly different mean PSI from the population mean of 1500 PSI.
 
 ![Ttest 3](https://user-images.githubusercontent.com/86337035/159984570-d3fc4964-e364-44de-b9d4-b8ef0c0cc412.png)
-With a p-value of 0.6072 and an alpha significance level of 0.05, we once again fail to reject the null hypothesis and conclude that there is not sufficient evidence to conclude that Manufacturing Lot 2 has a different average PSI from the population mean of 1500 PSI.
+With a p-value of 0.6072 and an alpha significance level of 0.05, we fail to reject the null hypothesis and conclude that there is not enough evidence to confirm that Manufacturing Lot 2 has a different average PSI from the population mean of 1500 PSI.
 
 ![Ttest 4](https://user-images.githubusercontent.com/86337035/159984646-bfc12a2e-cabf-4b75-8d2b-b47933704a78.png)
-However this time, with a p-value of 0.04168, and an alpha significance level of 0.05, we reject the null hypothesis and that there is sufficient evidence to conclude that Manufacturing Lot 3 has a significantly different average PSI from the population mean of 1500 PSI.
+However this time, with a p-value of 0.04168, and an alpha significance level of 0.05, we reject the null hypothesis and can show there is sufficient evidence to conclude that Manufacturing Lot 3 has a significantly different average PSI from the population mean of 1500 PSI.
 
 
 ## Study Design: MechaCar vs Competition
 
-Summary of Study: We are attempting to determine how MechaCar stacks up against other car manufacturers as a safe mode of transportation. As with many new and innovative cars on the market, consumers are hesistant that it may not be completely safe. This study will determine whether MechaCar can be considered a safe vehicle compared to other manufactureres.
+    ### Description: We are trying to see how MechaCar stacks up against the competitions cars, we could look at MPG, consumer ratings, costs, etc. These variables are pretty good to look at but from a macro perspective most modern day cars are relativley similar in terms of performance, partly due to stiff competition in the automotive market and partly due to enviromental regulations. Instead we are going to look at vehicle accessory options, and how MechaCar stacks up against the competition. Specifically I want to take a look at the number of cup holders in a car, it sounds very strange but the number of cup holders in a car has been proven to have an effect on a consumers purchasing decsion. 
+    
+    ### Data Need: We will collect data on the number of cup holders for each make and model that MechaCar offers and we will collect the same data from other auto manufacturers whose vehicles are in the same class as MechaCars (ie price, size, MPG, and other standard info). We also need to gather the sales results of all the cars invloved, this will serve as the marker telling us if auto sales are impacted by the number of cupholders in a car.  It is important that we compare only the vehicles from the competition that are similar to MechaCars vehicles, this helps us reduce any bias in our analysis.    
 
-We will collect average safety ratings of MechaCar and the other most well-known car manufacturers from independent third party evaluators and compare them to industry averages and then individual car manufacturers to see who has a safer car. 
+    - Null Hypothesis: The number of cupholders in a car has no impact on sales levels compared to other similar cars in the automotive industry. 
+    - Alternative Hypothesis: The number of cupholders in a car has a significantly impact on sales levels compared to other similar cars in the automotive industry.
 
-Null Hypothesis: There is no difference in the safety ratings of MechaCar compared to the industry average. 
-Alternative Hypothesis: MechaCar has a significantly different safety rating when compared to other cars in the auto industry.
-
-Method: We will conduct a one-sample t-test of average MechaCar safety ratings compared to the average safety ratings of all well-known car manufacturers and their models to see if there is a signifcant difference. Then, we will conduct additional one-sample t-tests to assess whether MechaCar has a significantly different safety rating compared to each individual car manufacturer.
+    ### Method:  We will conduct a one-sample t-test of the count of cup holders in MechaCar models compared to the count of cup holders from other manufacturers and the models of cars that they offer that are similar to MechaCars to see if there is a signifcant difference. Next, we will conduct one-sample t-tests to assess whether MechaCar has a significantly different sales numbers compared to each individual manufacturer.
 
 
 
